@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg2"
+    android:focusable="false"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5sp"
+        android:layout_marginTop="15sp"
+        android:textStyle="bold"
+        android:text="ABOUT US"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed By :"
+        android:textSize="34sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team : Ndroid#"
+        android:textSize="30sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IIT Roorkee"
+        android:textSize="30sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Team Members :"
+        android:textSize="34sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kunal Bansal"
+        android:textSize="30sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tirth Patel"
+        android:textSize="30sp"
+        android:layout_marginTop="15sp"
+        android:layout_marginBottom="5sp"
+        android:layout_gravity="center"
+        android:textColor="@color/yellow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="180sp"
+         android:layout_height="90sp"
+        android:layout_gravity="center"
+        android:onClick="backhome"
+        android:textColor="@color/black"
+        android:background="@android:drawable/ic_media_previous" />
+
+</LinearLayout>
+</ScrollView>
